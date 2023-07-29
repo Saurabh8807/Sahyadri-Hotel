@@ -1,0 +1,26 @@
+.gMap{
+    height: 50vh;
+    width: 50vw;
+    margin-top: 4rem;
+    margin-left: 26rem;
+    margin-bottom: 2rem;
+}
+.popup-content {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .popup-content strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .gMap{
+      height: 50vh;
+      width: 85vw;
+      margin-top: 6rem;
+      margin-left: 2rem;
+      margin-bottom: 2rem;
+  }
+  }

@@ -1,0 +1,45 @@
+.photos{
+    /* display: flex; */
+    height: 30vh;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    flex-wrap:wrap;
+    cursor: pointer;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+        0 4px 8px rgba(0, 0, 0, 2.15),
+        0 6px 12px rgba(68, 0, 255, 0.1),
+        4px 8px 16px rgba(0, 0, 0, 10.05);  
+      
+}
+#booknow10{
+    margin-top: -10vh;
+    margin-left: 46.5vw;
+    margin-bottom: -25vh;
+}
+.photosh1{
+    margin-left: 5vw;
+    margin-top: 5vh;
+
+}
+.photosh1div{
+    background-color:  rgb(138, 161, 180);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.Photosdiv{
+    background-color: rgb(180, 194, 206);
+    height: auto;
+    width: 96vw;
+    margin-bottom: 15vh;
+
+    margin-left: 2vw;
+    border-radius: 15px;
+}
+@media screen and (max-width: 600px) {
+    #booknow10{
+        margin-top: -10vh;
+        margin-left: 38.5vw;
+        margin-bottom: -25vh;
+    }
+}

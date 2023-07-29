@@ -1,0 +1,88 @@
+@media screen and (min-width: 601px) {
+
+.BookForm{
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    width: 45vw;
+    height: 78vh;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.menu{
+    margin-top: -5vh;
+    margin-left: 30vw;
+}
+#menubtn{
+    margin-left: 5vw;
+}
+#tablebtn{
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+}
+.BookFormh1{
+    color: rgb(255, 136, 0);
+    margin-left: 13vw;
+}
+.mb-3{
+    margin-left: 2.5vw;
+    width: 40vw;
+}
+.tablebtn{
+    padding: 10px;
+    margin-left:18vw ;
+}
+.Table{
+    border-radius: 55px;
+    height: 60vh;
+    margin-left: 54vw;
+    margin-top: -80vh;
+}
+}
+@media screen and (max-width: 601px) {
+    .BookForm {
+        margin-left: 5vw;
+        width: 90vw;
+        max-width: 500px;
+        height: auto;
+        background-color: lightgray;
+        border-radius: 20px;
+        padding: 20px;
+      }
+      
+      .menu {
+        margin-top: 7vh;
+        margin-left: -8vw;
+        text-align: center;
+      }
+      
+      #tablebtn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 5vh;
+      }
+      
+      .BookFormh1 {
+        color: rgb(255, 136, 0);
+        text-align: center;
+      }
+      
+      .mb-3 {
+        margin-left: 2.5vw;
+        width: 85%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .Table {
+        border-radius: 55px;
+        height: 40vh;
+        width: 90vw;
+        max-width: 500px;
+        margin-left: 5vw;
+        margin-right: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+      }
+}

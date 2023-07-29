@@ -1,0 +1,112 @@
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    width: 70rem;
+    margin-top: 1rem;
+    margin-left: 18rem;
+
+  }
+  .h2contact{
+    margin-left: 5rem;
+  }
+  #h2Transport{
+    margin-top:5rem;
+    margin-left:4rem;
+  }
+  .divider7{
+    margin-left: 40rem;
+  }
+  .contact-column {
+    flex: 1;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .contact-column h3 {
+    color: darkblue;
+    display: flex;
+    margin-left: -2rem;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .contact-column p {
+    margin-left: -1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+font-size: larger;
+  }
+  .contact-column h3 svg {
+    margin-right: 10px;
+  }
+  
+.transportation-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 70rem;
+  margin-left: 15rem;
+}
+
+.transportation-column {
+  flex: 1;
+  /* background-color: #f0f0f0; */
+  border-radius: 8px;
+  padding: 20px;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px;
+}
+
+.transportation-column h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: darkblue;
+}
+.transportation-column p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+font-size: larger;
+}
+.transportation-column h3 svg {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices with a maximum width of 768px */
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem; /* Remove left margin to center the content */
+    width: auto; /* Remove fixed width to allow content to adjust */
+  }
+  .h2contact{
+    margin-left: 0rem;
+  }
+  #h2Transport{
+    margin-top:5rem;
+    margin-left: 0rem;
+  }
+  .transportation-section{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0; /* Remove left margin to center the content */
+    width: auto; /* Remove fixed width to allow content to adjust */
+  }
+  
+  .divider7 {
+    margin-left: 3rem; /* Remove left margin for the divider */
+  }
+  
+  .contact-column,
+  .transportation-column {
+    width: 100%; /* Take full width of the container */
+    margin-left: 0; /* Remove left margin for the columns */
+    margin-bottom: 1rem; /* Add some space between the columns */
+  }
+  
+  h2 {
+    margin-left: 1rem; /* Adjust heading margin for better alignment */
+  }
+}

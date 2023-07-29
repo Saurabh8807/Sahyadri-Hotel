@@ -1,0 +1,174 @@
+.card-img-top {
+    height: 30vh;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .card {
+      width: 82vw;
+    }
+    .roomsize {
+      height: 160vh;
+      width: 90vw;
+      margin-left: 4.8vw;
+      background-color: lightgray;
+      border: 0;
+      border-radius: 10px;
+    }
+    .roomsize {
+      margin-top: 3vh;
+      
+    }
+    .col5{
+        margin-left: 2vw;
+      }
+      .col6{
+        margin-left: 18vw;
+      }
+      .col7 {
+        margin-left: 5vw;
+      }
+      .col3 {
+        margin-left: 3.65vw;
+      }
+  }
+  @media screen and (min-width: 381px) and (max-width: 600px) {
+    .body1{
+      flex-direction: column;
+
+    }
+    .card {
+      width: 82vw;
+      flex-direction: column;
+
+    }
+    .roomsize {
+      height: 146vh;
+      width: 90vw;
+      flex-direction: column;
+
+      margin-left: 4.8vw;
+      background-color: lightgray;
+      border: 0;
+      border-radius: 10px;
+    }
+    .roomsize {
+      margin-top: 3vh;
+      flex-direction: column;
+
+      
+    }
+    .col5{
+        margin-left: 2vw;
+        flex-direction: column;
+
+      }
+      .col6{
+        margin-left: 18vw;
+        flex-direction: column;
+
+      }
+      .col7 {
+        margin-left: 5vw;
+      }
+      .col3 {
+        margin-left: 3.65vw;
+      }
+  }
+  @media screen and (min-width: 601px) and (max-width: 1000px) {
+    .body1{
+      flex-direction: column;
+
+    }
+    .card {
+      width: 82vw;
+      flex-direction: column;
+
+    }
+    .roomsize {
+      height: 146vh;
+      width: 90vw;
+      flex-direction: column;
+
+      margin-left: 4.8vw;
+      background-color: lightgray;
+      border: 0;
+      border-radius: 10px;
+    }
+    .roomsize {
+      margin-top: 3vh;
+      flex-direction: column;
+
+      
+    }
+    .col5{
+        margin-left: 2vw;
+        flex-direction: column;
+
+      }
+      .col6{
+        margin-left: -6vw;
+        margin-top: 46vh;
+justify-content: center;
+      }
+      .col7 {
+        margin-left: 5vw;
+      }
+      .col3 {
+        margin-left: 3.65vw;
+      }
+  }
+  @media screen and (min-width: 1001px) {
+    .card {
+      width: 27vw;
+    }
+    .roomsize {
+      margin-top: 5vh;
+      height: 67vh;
+      width: 90vw;
+      margin-left: 4.8vw;
+      background-color: lightgray;
+      border: 0;
+      border-radius: 10px;
+    }
+    .card {
+      margin-left: -11.6vw;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32),
+        0 4px 8px rgba(0, 0, 0, 0.215),
+        0 6px 12px rgba(0, 0, 0, 0.1),
+        4px 8px 16px rgba(0, 0, 0, 0.105);
+    }
+    .col5{
+        margin-left: vw;
+      }
+      .col6{
+        margin-left: 15vw;
+      }
+      .col7 {
+        margin-top: -45vh;
+        margin-left: 62vw;
+      }   
+  }
+  .h3class {
+    margin-left: 2vw;
+    color: aqua;
+  }
+  
+  .head2 {
+    padding: 2px;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .body1 {
+    margin-top: 4vh;
+  }
+  
+  .card-title3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .prize {
+    font-size: 30px;
+    color: rgb(255, 0, 200);
+  }

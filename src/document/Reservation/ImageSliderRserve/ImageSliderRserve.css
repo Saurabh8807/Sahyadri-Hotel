@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 600px) {
+    .ImageSliderRservephoto{
+        height: 100vh;
+        width: 1vw;
+        display: flex;
+    }
+}
+@media screen and (min-width: 601px) {
+    .ImageSliderRservephoto{
+        height: 100vh;
+        width: 98.75vw;
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card-img2{
+        height: 100vh;
+        width: 1025w;
+    }
+}
+@media screen and (min-width: 601px) {
+}
+.card-img2{
+    height: 100vh;
+    width: 98.7vw;
+}
+
+@media screen and (max-width: 600px) {
+    .about_image2{
+        height: 100vh;
+        width: 0vw;   
+    }
+}
+@media screen and (min-width: 601px) {
+    .about_image2{
+        height: 100vh;
+        width: 98.7vw;   
+    }
+}
+
+/* .back{
+    background-color: lightblue;
+} */
+@media screen and (max-width: 600px) {
+    .card-title2{
+        margin-top: -11vh;
+        margin-left: 12vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        color:rgb(250, 2, 2) ;
+    }
+}
+@media screen and (min-width: 601px) {
+    .card-title2{
+        margin-top: -11vh;
+        font-size: 6vh;
+        margin-left: 42vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        color:rgb(250, 2, 2) ;
+    }
+}
+

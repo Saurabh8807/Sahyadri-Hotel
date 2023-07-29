@@ -1,0 +1,17 @@
+.paybox{
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 37vw;
+    height: 47vh;
+    width:30vw;
+    background-color: gainsboro;
+}
+.cardInput{
+    width: 29vw;
+}
+.pay{
+    width: 5vw;
+    margin-top: 1vh;
+    padding: 7px;
+    margin-left: 13vw;
+}

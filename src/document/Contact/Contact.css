@@ -1,0 +1,14 @@
+.contact{
+    height: 100%;
+    background-color: rgb(178, 166, 192);
+    width:100vw;
+}
+.contact h1{
+    color: black;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .contact h1{
+        color: black;
+        margin-left: 10rem;    } 
+}

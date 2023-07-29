@@ -1,0 +1,166 @@
+.card-container1 {
+  background-color: rgb(76, 204, 204);
+  width: 100%;
+  height:100vh;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #f5f5f5; */
+  position: relative;
+}
+
+.tables {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: lightgray;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+.highlight5{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+  font-size: 18px;
+  font-weight: 200x;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+}
+.highlight6{
+  font-family: 'Times New Roman', Times, serif;
+  color:brown	;
+  font-size: 18px;
+  font-weight: 200x;
+}
+.tables h3,
+.tables p {
+  text-shadow: none;
+  font-size: 14px;
+  font-weight: 300px;
+  margin-bottom: 5px;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tables.expanded {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #eee;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-overflow: clip;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.tables.expanded #tableName{
+  text-align: start;
+  /* margin-left: -9vw;
+  margin-top:-40vh; */
+}
+.tables.expanded #roomNumber{
+  text-align: start;
+  /* margin-left: -9vw;
+  margin-top: -27vh;
+  position:fixed; */
+  
+}
+.tables.expanded #phoneNumber{
+  text-align: start;
+  /* position: fixed;
+  margin-left: -3.5vw;
+  margin-top: -18vh; */
+}
+.tables.expanded #guests{
+  text-align: start;
+  /* margin-left: -14.5vw;
+  margin-top: -9vh;
+  position: fixed; */
+  
+}
+.tables.expanded #time{
+  text-align: start;
+  /* margin-left: -12vw;
+  position: fixed; */
+  
+}
+.tables.expanded #items{
+  text-align: start;
+  /* position: fixed;
+  margin-left: -5vw;
+  margin-top: 9vh; */
+} */
+.tables.expanded h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tables.expanded p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.tables.expanded ~ .tables {
+  display: none;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  z-index: 4;
+}
+
+.close-button:hover {
+  background-color: #999;
+}
+
+.blur-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.tables.expanded + .blur-effect {
+  opacity: 1;
+}
+@media screen and (max-width: 1000px) {
+  .card-container1{
+    margin-top: 5.5rem;
+  }
+}

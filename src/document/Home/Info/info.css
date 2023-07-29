@@ -1,0 +1,340 @@
+@media screen and (max-width: 300px) {
+    .video{
+        width: 60vw;
+        display: flex;
+        margin-top: 40em;
+     }
+     
+}
+@media screen and (max-width: 480px) {
+    .headings{
+        margin-left: -10vw;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .headings h1{
+        color: black;
+        margin-left: 3rem;
+    }
+    h1{margin-left: 4vw;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:bolder;
+        color:rgb(0, 255, 0);
+    }
+    h3{
+        margin-left: 7vw;
+        color:chartreuse;
+    }
+    .divider{
+        justify-content: center;
+        margin-left: 3rem;
+    }
+    .downHeading{
+        margin-top: 2vh;
+        margin-left: 28vw;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bolder;
+        width: 65vw;
+        color: rgba(255, 0, 0, 0.733);
+        padding: 1vh;
+        background-color: aliceblue;
+    }
+    .detail{
+        /* display: flex; */
+        font-weight:bolder;
+        justify-content: center;
+        height: 11vh;
+        width: 65vw;
+        margin-left: 12vw;
+        
+    }
+    .circle-row {
+        margin-top: 28em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;      
+    }
+      .video{
+        display: flex;
+        /* justify-content:flex-start; */
+        margin-top: 26em;
+justify-content: center;     }
+     .both{
+        flex-wrap: wrap;
+        background-color:darkseagreen;
+        width: 90vw;
+        margin-left: 5vw;
+        height: 49em;
+    }
+    #booknow{
+        height: 7vh;
+        width: 35vw;
+        margin-left:33vw ;
+        margin-top: 1em;
+        margin-bottom: 3vh;
+
+    }
+    .aboutDivider{
+        margin-left: 35vw;
+    }
+
+}
+
+@media screen and (min-width:481px )and (max-width: 1000px) {
+    .headings{
+        margin-left: -10vw;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .headings h1{
+        color: black;
+    }
+    h1{margin-left: 4vw;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:bolder;
+        color:rgb(0, 255, 0);
+    }
+    h3{
+        margin-left: 7vw;
+        color:chartreuse;
+    }
+    .divider{
+        justify-content: center;
+    }
+    .downHeading{
+        margin-top: 2vh;
+        margin-left: 28vw;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bolder;
+        width: 65vw;
+        color: rgba(255, 0, 0, 0.733);
+        padding: 1vh;
+        background-color: aliceblue;
+    }
+    .detail{
+        /* display: flex; */
+        font-weight:bolder;
+        justify-content: center;
+        height: 11vh;
+        width: 65vw;
+        margin-left: 12vw;
+        
+    }
+    .video{
+        display: flex;
+        /* justify-content:flex-start; */
+        margin-top: 20em;
+        justify-content: center;     }
+     .both{
+        flex-wrap: wrap;
+        background-color:darkseagreen;
+        width: 90vw;
+        margin-left: 5vw;
+        height: 50em;
+    }
+    #booknow{
+        height: 7vh;
+        width: 35vw;
+        margin-left:33vw ;
+        margin-top: 1em;
+        margin-bottom: 3vh;
+
+    }
+    .aboutDivider{
+        margin-left: 15vw;
+    }
+    .circle-row {
+        margin-top: 25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10vw;
+      }
+}
+
+@media screen and (min-width: 1001px) {
+    .headings{
+        margin-left: 25vw;
+        margin-top: 5vh;
+    }
+    h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:bolder;
+        color:rgb(243, 0, 0);
+    }
+    h3{
+        text-shadow:  2px 1px 2px rgba(0, 0, 0, 112.5);
+        margin-left: 7vw;
+        color:chartreuse;
+    }
+    .divider{
+        margin-left: 14vw;
+        justify-content: center;
+    }
+    .downHeading{
+        margin-top: 3vh;
+        margin-bottom:5vh ;
+        font-weight: 1000;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+        0 4px 8px rgba(0, 0, 0, 2.15),
+        0 6px 12px rgba(0, 0, 0, 0.1),
+        4px 8px 16px rgba(0, 0, 0, 10.05);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bolder;
+        width: 58vw;
+        color: rgba(255, 0, 0, 0.733);
+        margin-left: -4vw;
+        background-color: aliceblue;
+    }
+    .detail{
+        display: flex;
+        font-weight:bolder;
+        font-size: 18px;
+        justify-content: left;
+        height: 200px;
+        width: 700px;
+        margin-left: 1px;
+        
+    }
+    .video{
+            /* display: flex; */
+            justify-content: end;
+            margin-top: -25vh;
+            margin-left: 55vw;
+    }
+    .both{
+        border-radius: 20px;
+        flex-wrap: wrap;
+        background-color:darkseagreen;
+        width: 90vw;
+        margin-left: 4.5vw;
+        height: 45vh;
+    }
+    #booknow{
+        height: 7vh;
+        width: 10vw;
+        margin-left:42vw ;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .aboutDivider{
+        margin-left: -10vw;
+    }
+    .circle-row {
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10vw;
+      }
+    .downHeading2{
+        height: 30vh;
+    }
+}
+
+.downHeading2{
+    text-align:center;
+          margin-left:  4vw;
+          /* height: "15vh"; */
+          text-shadow: 1px 1px 2px rgb(255, 0, 0);
+          font-size: 18.4;
+          background-color: rgb(95, 189, 95);
+          margin-top: 2em;
+          
+          margin-bottom: -10em;
+          border-radius: 15px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+          0 4px 8px rgba(0, 0, 0, 4.15),
+          0 6px 12px rgba(0, 0, 0, 8.1),
+          0px 8px 18px rgba(0, 0, 0, 15.05);
+          font-weight: 400;
+}
+
+
+
+  
+  .circle {
+    padding: 6vw;
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8vw;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  }
+  
+  .circle span {
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .circle:hover {
+    text-emphasis-color: red;
+    background-color: rgb(92, 231, 92);
+    transform: scale(1.05); /* Increase the size by 5% */
+  }
+  
+  .circle:hover span {
+    color: #fff;
+  }
+  
+  .circle:focus {
+    outline: none;
+    background-color: #333;
+  }
+  
+  /* @media screen and (max-width: 415px) {
+    .circle-row {
+      margin-top:28em;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5vw;
+    }
+  
+    .circle {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 4vh;
+    }
+  }
+  @media screen and (max-width: 815px) {
+    .circle-row {
+        margin-top:15em;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5vw;
+      }
+      .circle {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1vh;
+      }
+      .video{
+        justify-content: center;
+        margin-top :35vh;
+        }
+        .both{
+            border-radius: 20px;
+            flex-wrap: wrap;
+            background-color:darkseagreen;
+            width: 90vw;
+            margin-left: 4.5vw;
+            height: 45em;
+        }
+} */
+    .img100{
+        margin-left:18vw ;
+    }

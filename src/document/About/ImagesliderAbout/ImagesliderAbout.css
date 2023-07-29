@@ -1,0 +1,30 @@
+.card-img{
+    height: 100vh;
+    width: 98.7vw;
+}
+.about_image{
+    height: 100vh;
+    width: 98.7vw;
+    
+}
+@media screen and (max-width: 600px) {
+    .card-title1{
+        margin-top: -11vh;
+        margin-left: 12vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        color:rgb(250, 2, 2) ;
+    }
+}
+@media screen and (min-width: 601px) {
+    .card-title1{
+        text-shadow:  2px 1px 3px rgba(0, 10, 1, 112.5);
+        font-size: 40px;
+        margin-top: -86vh;
+        margin-left: 32vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        color:rgb(250, 225, 2) ;
+    }
+}
+

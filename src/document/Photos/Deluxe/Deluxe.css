@@ -1,0 +1,70 @@
+.Deluxeroom {
+    height: 30vh;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+    0 4px 8px rgba(0, 0, 0, 2.15),
+    0 6px 12px rgba(0, 0, 0, 0.1),
+    4px 8px 16px rgba(0, 0, 0, 10.05);  
+  
+  }
+  
+  .deluxeh1 {
+    margin-left: 7vw;
+    margin-top: 5vh;
+  }
+  
+  .deluxeh1div {
+    background-color: rgb(138, 161, 180);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .deluxediv {
+    background-color: rgb(180, 194, 206);
+    height: auto;
+    width: 96vw;
+    margin-left: 2vw;
+    border-radius: 15px;
+  }
+  
+  .photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-image {
+    max-height: 80vh;
+    max-width: 80vw;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 99999;
+  }
+  
+  .close:hover {
+    color: #ccc;
+  }
+  

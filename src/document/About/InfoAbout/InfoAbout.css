@@ -1,0 +1,329 @@
+
+
+.pInfo{
+    text-align: center;
+    margin-left: 1vw;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    .aboutHotel{
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    #booknow2{
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 37vw;
+    }
+    .Image{
+        /* display: flex; */
+        height: 40vh;
+        width: 80vw;
+        margin-left: 5.5vw;
+        margin-top: 1vh;
+        padding-bottom: 5vh;
+    }
+    .both1{
+        margin-left:6vw;
+        width: 90vw;
+        height: auto;
+        background-color:lightblue;
+    }
+    .info1{
+        /* display: flex; */
+        width: 80vw;
+        margin-left: 2vh;
+        margin-top: 5vh;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .h3Info{
+        margin-top: 2vh;
+;        color: rgb(216, 9, 9);
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .h5Info{
+        font-size: 25px;
+        margin-left: vw;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .Info{
+        background-color: rgb(118, 247, 140);
+        height: auto;
+        width: 80vw;
+        color: white;
+        margin-left: 10vw;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+                    0 4px 8px rgba(0, 0, 0, 2.15),
+                    0 6px 12px rgba(0, 0, 0, 0.1),
+                    4px 8px 16px rgba(0, 0, 0, 10.05);
+    }
+    .aboutDivider{
+margin-left: 10vw;    }
+   
+    .facilities-section {
+        margin-top: 24vh;
+        margin-left: 6vw;
+        width: 90vw;
+        height: auto;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      .facility-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .facility {
+        display: flex;
+        align-items: center;
+        width: 50%; /* Display 2 items per row on mobile */
+        margin-bottom: 20px;
+      }
+      
+      .facility img {
+        width: 40px;
+      }
+      
+      .facility p {
+        margin: 0;
+        font-size: 16px;
+      }
+      #booknow2{
+        margin-bottom: 2vh;
+      }
+      
+}
+
+@media screen and (min-width: 1000px) {
+    .aboutHotel{
+        margin-top: 80vh;
+        margin-bottom: 6vh;
+    }
+    #booknow2{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        margin-left: 45vw;
+    }
+    .aboutDivider{
+        margin-left: 39vw;
+    }
+    .img{
+        display: flex;
+        height: 40vh;
+        /* width: 50vw; */
+        margin-left: 50vw;
+        margin-top: -37vh;
+    }
+    .both1 {
+        margin-left:4vw;
+        width: 90vw;
+        height: 52vh;
+        background-color: lightblue;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    .both1:hover {
+        background-color: skyblue;
+        cursor: pointer;
+    }
+    
+    .info1{
+        display: flex;
+        text-align: center;
+        width: 40vw;
+        margin-left: 2vh;
+        margin-top: 6vh;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .info1 p{
+        margin-top:3vh ;
+    }
+    .Info {
+        background-color: rgb(135, 216, 145);
+        height: auto;
+        width: 82vw;
+        margin-left: 8vw;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+                    0 4px 8px rgba(0, 0, 0, 2.15),
+                    0 6px 12px rgba(0, 0, 0, 0.1),
+                    4px 8px 16px rgba(0, 0, 0, 10.05);
+    }
+    
+    
+    .h5Info{
+        color: black;
+        margin-left: 37vw;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .h3Info{
+        margin-left: 36vw;
+        color: rgb(0, 255, 0);
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .facilities-section {
+
+        margin-left: 4vw;
+        width: 90vw;
+        height: auto;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.3s ease-in-out; 
+       }
+      
+      .facility-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .facility {
+        display: flex;
+        align-items: center;
+        width: 25%; /* Adjust width as needed for the number of columns */
+        margin-bottom: 20px;
+      }
+      
+      .facility img {
+        width: 40px; /* Adjust size as needed */
+      }
+      
+      .facility p {
+        margin: 0;
+        font-size: 16px; /* Adjust size as needed */
+      }
+      
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .aboutHotel{
+        margin-top: 80vh;
+        margin-bottom: 5vh;
+    }
+    #booknow2{
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        margin-left: 37vw;
+    }
+    .Image{
+        /* display: flex; */
+        height: 40vh;
+        width: 80vw;
+        margin-left: 5.5vw;
+        margin-top: 1vh;
+        padding-bottom: 5vh;
+    }
+    .both1{
+        margin-left:6vw;
+        width: 90vw;
+        height: auto;
+        background-color:lightblue;
+    }
+    .info1{
+        /* display: flex; */
+        width: 80vw;
+        margin-left: 2vh;
+        margin-top: 5vh;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .h3Info{
+        margin-top: 2vh;
+;        color: rgb(216, 9, 9);
+        font-size: 32px;
+        margin-left: 20vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .h5Info{
+        font-size: 25px;
+        margin-left: vw;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .Info{
+        background-color: rgb(118, 247, 140);
+        height: auto;
+        width: 80vw;
+        color: white;
+        margin-left: 10vw;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 3.2),
+                    0 4px 8px rgba(0, 0, 0, 2.15),
+                    0 6px 12px rgba(0, 0, 0, 0.1),
+                    4px 8px 16px rgba(0, 0, 0, 10.05);
+    }
+    .aboutDivider{
+margin-left: 30vw;}   .facilitiestxt{
+    text-align: center;
+   }
+    .facilities-section {
+        margin-top: 10vh;
+        margin-left: 6vw;
+        width: 90vw;
+        height: auto;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      .facility-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .facility {
+        display: flex;
+        align-items: center;
+        width: 50%; /* Display 2 items per row on mobile */
+        margin-bottom: 20px;
+      }
+      
+      .facility img {
+        width: 40px;
+      }
+      
+      .facility p {
+        margin: 0;
+        font-size: 16px;
+      }
+      #booknow2{
+        margin-bottom: 2vh;
+      }
+      }

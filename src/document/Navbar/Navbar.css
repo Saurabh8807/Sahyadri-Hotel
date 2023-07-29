@@ -1,0 +1,207 @@
+
+.nav-item {
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link_active {
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    background-color: lightblue;
+    padding: 1rem;
+    width: 100vw;
+    height: 10vh;
+  }
+  .navbar-brand{
+    margin-top: -7vh;
+  }
+  .logo-container{
+    margin-top:4vh;
+  }
+  .navItems {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60vw;
+    padding:-20rem ;
+    margin-top: -5vh;
+    background-color: lightblue; /* Add this line */
+    margin-left: 30vw;
+  }
+  .nav-link {
+    margin-bottom: -1rem;
+  }
+
+  #navbarbooknow {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 1rem;
+  }
+/* Rest of the CSS rules */
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  margin-top: -4vh;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.navbar-toggler:before,
+.navbar-toggler:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler:before {
+  top: 0.5em;
+}
+
+.navbar-toggler:after {
+  bottom: 0.5em;
+}
+
+.navbar-toggler.expanded:before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.navbar-toggler.expanded:after {
+  transform: rotate(-45deg);
+  bottom: 0;
+}  #navbarSignOut {
+    width: 10vh;
+    margin-left: 0;
+  }
+
+  #navbarSignIn {
+    width: 100%;
+    margin-left: 0;
+  }
+  .navbar-toggler-icon {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }  
+  .nav-item{
+    padding: -3rem;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .navbar {
+    position: fixed;
+    margin-top: 0vh;
+    z-index: 1;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    background-color: rgb(155, 233, 196);
+  }
+
+  .navItems {
+    justify-content: flex-end;
+    margin-left: 26vw;
+  }
+
+  #navbarbooknow {
+    height: inherit;
+    width: fit-content;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #navbarSignOut {
+    width: 8vw;
+  }
+
+  #navbarSignIn {
+    margin-left: -1vw;
+    width: 8vw;
+  }
+
+  .navbar-close-button {
+    display: none; /* Hide the close button on larger screens */
+  }
+
+}
+
+.navbar-toggler-icon {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #f8f8f8;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

@@ -1,0 +1,101 @@
+.room-details-container{
+  background-image: linear-gradient(to top left, #f8f8f8, #75d41c);
+
+}
+.back-link {
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  font-size: 28px;
+  color: #555555;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #000000;
+}
+
+.back-arrow {
+  /* vertical-align: middle; */
+}
+
+.room-details {
+  /* height: 165vh; */
+  width: 94vw;
+  margin-left: 3vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #c2b9b9;
+  margin-bottom: vh;
+}
+
+.suggestion{
+  color: red;
+  font-weight: 500;
+}
+.row input:invalid + .suggestion {
+  visibility: visible;
+  opacity: 1;
+}
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 180px;
+  font-weight: bold;
+}
+
+.value {
+  flex: 1;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  overflow-wrap: break-word; /* Add this property to prevent the size change */
+}
+
+.value.Occupied {
+  color: #ffffff;
+  background-color: #ff3366;
+}
+
+.value.Empty {
+  color: #ffffff;
+  background-color: #66cc66;
+}
+
+.actions {
+  display: flex; /* Add this property to keep the buttons on the same line */
+  justify-content: flex-end; /* Add this property to align the buttons to the right */
+  margin-top: 10px;
+}
+
+#edBtn,
+#svBtn {
+  width: 8vw;
+  margin-left: 10px;
+}
+@media screen and (max-width: 1001px) {
+  .room-details-container{
+margin-top: 5rem;  
+  }
+  .back-link{
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
+  .room-details{
+    margin-top: 4rem;
+  }
+  #edBtn,
+#svBtn {
+  width: 15vw;
+  margin-left: 10px;
+}
+}
+

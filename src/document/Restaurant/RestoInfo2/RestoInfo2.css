@@ -1,0 +1,161 @@
+@media screen and (min-width: 600px) {
+.RestoInfo211{
+    margin-top: 15vh;
+    margin-left: 5vw;
+    width: 40vw;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0);
+
+}
+.RestoInfo211h1{
+    font-size: 35px;
+}
+.RestoInfo211p{         
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.RestoInfo212{
+    width: 45vw;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: -50vh;
+    margin-left: 50vw;
+}
+.RestoInfo221{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-align: center;
+    width: 45vw;
+    border-radius: 15px;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.RestoInfo222{
+    height: 65vh;
+    width: 45vw;
+    border-radius: 15px;
+    margin-top: -60vh;
+    margin-left: 50vw;
+}
+.RestoInfo222h1{
+    font-size: 35px;
+}
+.RestoInfo222p{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.BookTable{
+    margin-left: 45vw;
+}
+.RestoInfo231{
+    margin-top: 5vh;
+    height: 60vh;
+    width: 98.7vw;
+}
+.RestoInfo231h1{
+    margin-left: 33vw;
+    color: wheat;
+    margin-top: -50vh;
+    margin-bottom: 50vh;
+}
+.RestoInfo231p{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 187, 0);
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 90vw;
+    margin-left: 5vw;
+    color: white;
+    margin-top: -40vh;
+    margin-bottom: 30vh;
+}
+}
+@media screen and (max-width: 600px) {
+    .RestoInfo211 {
+        margin-top: 5vh;
+        margin-left: 5vw;
+        width: 90vw;
+        text-shadow: 1px 1px 2px rgb(255, 0, 0);
+      }
+      
+      .RestoInfo211h1 {
+        font-size: 6vw;
+        margin-left:2vw ;
+        margin-bottom: 4vh;
+
+      }
+      
+      .RestoInfo211p {
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .RestoInfo212 {
+        width: 90vw;
+        border-radius: 15px;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin-top: 2vh;
+        margin-left: 5vw;
+      }
+      
+      .RestoInfo221 {
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        text-align: center;
+        width: 90vw;
+        border-radius: 15px;
+        margin-top: 5vh;
+        margin-left: 5vw;
+      }
+      
+      .RestoInfo222 {
+        width: 90vw;
+        border-radius: 15px;
+        margin-top: 2vh;
+        margin-left: 5vw;
+      }
+      
+      .RestoInfo222h1 {
+        font-size: 6vw;
+        margin-left: -2vw;
+        margin-bottom: 2vh;
+
+      }
+      
+      .RestoInfo222p {
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .BookTable {
+        margin-left: 45vw;
+        margin-top: 2vh;
+      }
+      
+      .RestoInfo231 {
+        height: 26em;
+        margin-left: 2vw;
+        width: 95vw;
+      }
+      
+      .RestoInfo231h1 {
+        margin-left: 30vw;
+        font-size: 4vw;
+        color: wheat;
+        margin-top: -23em;
+        margin-bottom: 2vh;
+      }
+      
+      .RestoInfo231p {
+        text-align: center;
+        text-shadow: 1px 1px 2px rgb(255, 187, 0);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 90vw;
+        margin-left: 5vw;
+        color: white;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+      }
+      
+}
