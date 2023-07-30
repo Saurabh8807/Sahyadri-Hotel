@@ -60,7 +60,7 @@ export default function TableRequest() {
     <div>
       <AdminNavbar />
 
-      <div className="card-container1">
+      <div className="card-container2">
         {isLoading ? (
           <p>Loading...</p>
         ) : (

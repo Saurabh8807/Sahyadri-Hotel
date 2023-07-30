@@ -1,4 +1,4 @@
-.card-container1 {
+.card-container2 {
   background-color: rgb(76, 204, 204);
   width: 100%;
   height:100vh;
@@ -160,7 +160,7 @@
   opacity: 1;
 }
 @media screen and (max-width: 1000px) {
-  .card-container1{
+  .card-container2{
     margin-top: 5.5rem;
   }
 }

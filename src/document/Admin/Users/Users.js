@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AdminNavbar from '../Navbar/Navbar';
 import { useNavigate } from 'react-router-dom';
 import './Users.css';
-import loadingGif from 'D:/Hotel Management system/client/src/document/Admin/Users/yy3.gif';
+import loadingGif from './yy3.gif';
 
 function App() {
   const [users, setUsers] = useState([]);
