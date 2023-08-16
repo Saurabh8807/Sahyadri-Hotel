@@ -20,7 +20,7 @@ export default function Booking() {
   const [emptyRooms, setEmptyRooms] = useState([]);
 
   const collectData3 = async () => {
-    const baseUrl = "http://localhost:5000/user/bookings";
+    const baseUrl = "https://sahyadri-backend.onrender.com/user/bookings";
     const data = {
       name,
       email,

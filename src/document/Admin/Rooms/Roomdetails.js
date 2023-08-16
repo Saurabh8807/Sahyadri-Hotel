@@ -64,17 +64,7 @@ function RoomDetails() {
     setIsEditing(true);
   };
 
-  // const handleSaveClick = () => {
-  //   axios
-  //     .put(`/admin/rooms/${roomNumber}`, editableData)
-  //     .then(response => {
-  //       setRoomData(response.data);
-  //       setIsEditing(false);
-  //     })
-  //     .catch(error => {
-  //       console.error('Error updating room data:', error);
-  //     });
-  // };
+
 
   if (!roomData) {
     return <p>Loading...</p>;
@@ -91,18 +81,18 @@ function RoomDetails() {
         <div className="room-details">
           <div className="row">
             <div className="label">Room Number:</div>
-            <div className="value">{roomData['id']}</div>
+            <div className="value">{roomData['No']}</div>
           </div>
           <div className="row">
             <div className="label">Names:</div>
             {isEditing ? (
               <input
                 type="text"
-                value={editableData['name']}
-                onChange={e => handleEditChange('name', e.target.value)}
+                value={editableData['Names']}
+                onChange={e => handleEditChange('Names', e.target.value)}
               />
             ) : (
-              <div className="value">{roomData['name']}</div>
+              <div className="value">{roomData['Names']}</div>
             )}
           </div>
           <div className="row">
@@ -225,11 +215,11 @@ function RoomDetails() {
             {isEditing ? (
               <input
                 type="text"
-                value={editableData['booking_type']}
-                onChange={e => handleEditChange('booking_type', e.target.value)}
+                value={editableData['Booking_Type']}
+                onChange={e => handleEditChange('Booking_Type', e.target.value)}
               />
             ) : (
-              <div className="value">{roomData['booking_type']}</div>
+              <div className="value">{roomData['Booking_Type']}</div>
             )}
           </div>
           <div className="row">
@@ -267,15 +257,15 @@ function RoomDetails() {
               <>
               <input
                 type="text"
-                value={editableData['bill_amount']}
-                onChange={e => handleEditChange('bill_amount', e.target.value)}
+                value={editableData['billAmount']}
+                onChange={e => handleEditChange('billAmount', e.target.value)}
               />
-              {editableData['bill_amount'] === '' || isNaN(editableData['bill_amount']) ? (
+              {editableData['billAmount'] === '' || isNaN(editableData['billAmount']) ? (
                 <p className="suggestion">Please enter a numeric value or 0.</p>
               ) : null}
               </>
             ) : (
-              <div className="value">{roomData['bill_amount']}</div>
+              <div className="value">{roomData['billAmount']}</div>
             )}
           </div>
           <div className="row">
@@ -317,11 +307,11 @@ function RoomDetails() {
             {isEditing ? (
               <input
                 type="text"
-                value={editableData['guest']}
-                onChange={e => handleEditChange('guest', e.target.value)}
+                value={editableData['Guest']}
+                onChange={e => handleEditChange('Guest', e.target.value)}
               />
             ) : (
-              <div className="value">{roomData['guest']}</div>
+              <div className="value">{roomData['Guest']}</div>
             )}
           </div>
           <div className="row">
@@ -329,11 +319,11 @@ function RoomDetails() {
             {isEditing ? (
               <input
                 type="text"
-                value={editableData['occupancy_status']}
-                onChange={e => handleEditChange('occupancy_status', e.target.value)}
+                value={editableData["occupancy_status"]}
+                onChange={e => handleEditChange("occupancy_status", e.target.value)}
               />
             ) : (
-              <div className="value">{roomData['occupancy_status']}</div>
+              <div className="value">{roomData["occupancy_status"]}</div>
             )}
           </div>
           <div className="actions">

@@ -39,7 +39,7 @@ const SignUp = () => {
       // Perform registration logic with user data
       const { key, name, phone, email, password, cpassword } = admin;
       console.log(admin)
-      const baseUrl1 = "http://localhost:5000/SignUpAdmin";
+      const baseUrl1 = "https://sahyadri-backend.onrender.com/SignUpAdmin";
       
       try {
         // e.preventDefault();
@@ -60,7 +60,7 @@ const SignUp = () => {
 
       // Perform registration logic with user data
       const { name, phone, email, password, cpassword } = user;
-      const baseUrl = "http://localhost:5000/SignUp";
+      const baseUrl = "https://sahyadri-backend.onrender.com/SignUp";
 
       try {
         const response = await axios.post(baseUrl, { name, phone, email, password, cpassword });
