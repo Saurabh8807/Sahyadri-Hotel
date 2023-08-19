@@ -5,7 +5,6 @@ import Roomsize from './Roomsize/Roomsize'
 import Booking from './Booking/Booking'
 import Footer from '../Foot/Foot'
 
-import Flip from 'react-reveal';
 import './Reservation.css'
 
 export default function reservation() {

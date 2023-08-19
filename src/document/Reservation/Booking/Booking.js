@@ -47,7 +47,7 @@ export default function Booking() {
   
       // Assign rooms from emptyRoomsData
       const emptyRooms = emptyRoomsData.map((room, index) => {
-        let roomNumber = room['id'];
+        let roomNumber = room['No'];
         let assignedRoomType = room['assigned_room_type'];
         let occupancyStatus = room['occupancy_status'].replace(/\r/g, '');
   

@@ -3,8 +3,7 @@ import Room1 from "../Roomsize/Deluxe.jpeg"
 import Room2 from "./Super_Deluxe.jpg"
 import Room3 from "./Deluxe_Lake_Facing.avif"
 import './Roomsize.css';
-import Flip from 'react-reveal';
-import Zoom from 'react-reveal';
+
 
 
 export default function Roomsize() {
@@ -25,7 +24,6 @@ export default function Roomsize() {
       </div>
       <div className="body1">
         <div className="row row-cols-1 row-cols-md-3 g-4">
-            <Flip left>
           <div className="col5">
             <div className="card" style={{ marginLeft: "2.5vw" }}>
               <img
@@ -41,8 +39,6 @@ export default function Roomsize() {
               </div>
             </div>
           </div>
-              </Flip>
-              <Zoom bottom>
           <div className="col6">
             <div className="card" style={{ marginLeft: "-13.5vw" }}>
               <img
@@ -57,9 +53,7 @@ export default function Roomsize() {
               </div>
             </div>
           </div>
-          </Zoom>
 
-          <Zoom right>
           <div className="col7">
             <div className="card" style={{ marginLeft: "-0.5vw" }}>
               <img
@@ -74,7 +68,6 @@ export default function Roomsize() {
               </div>
             </div>
           </div>
-        </Zoom >
         </div>
 
       </div>
