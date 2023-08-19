@@ -6,7 +6,6 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: #f5f5f5; */
   position: relative;
 }
 
@@ -16,7 +15,6 @@
   border: 1px solid #ccc;
   padding: 10px;
   background-color: lightgray;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -70,41 +68,31 @@
 }
 .tables.expanded #tableName{
   text-align: start;
-  /* margin-left: -9vw;
-  margin-top:-40vh; */
+
 }
 .tables.expanded #roomNumber{
   text-align: start;
-  /* margin-left: -9vw;
-  margin-top: -27vh;
-  position:fixed; */
+
   
 }
 .tables.expanded #phoneNumber{
   text-align: start;
-  /* position: fixed;
-  margin-left: -3.5vw;
-  margin-top: -18vh; */
+ 
 }
 .tables.expanded #guests{
   text-align: start;
-  /* margin-left: -14.5vw;
-  margin-top: -9vh;
-  position: fixed; */
+
   
 }
 .tables.expanded #time{
   text-align: start;
-  /* margin-left: -12vw;
-  position: fixed; */
+
   
 }
 .tables.expanded #items{
   text-align: start;
-  /* position: fixed;
-  margin-left: -5vw;
-  margin-top: 9vh; */
-} */
+
+} 
 .tables.expanded h3 {
   margin: 0;
   font-size: 24px;

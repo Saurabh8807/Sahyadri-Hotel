@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: cyan; */
   }
   .roomsBack{
     background-color: rgb(175, 191, 235);
@@ -25,11 +24,11 @@
   }
   
   .room-box .key {
-    color: #ff4747; /* Suitable color for red */
+    color: #ff4747; 
   }
   
   .room-box .value {
-    color: #3a5eff; /* Suitable color for blue */
+    color: #3a5eff; 
   }
   @media screen and (max-width: 1001px) {
     .rooms-container {
@@ -37,7 +36,6 @@
       margin-top: 6rem;
       flex-wrap: wrap;
       justify-content: center;
-      /* background-color: cyan; */
     }
   
   }

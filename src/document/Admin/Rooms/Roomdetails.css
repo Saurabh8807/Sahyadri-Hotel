@@ -16,12 +16,9 @@
   color: #000000;
 }
 
-.back-arrow {
-  /* vertical-align: middle; */
-}
+
 
 .room-details {
-  /* height: 165vh; */
   width: 94vw;
   margin-left: 3vw;
   border-radius: 8px;
@@ -57,7 +54,7 @@
   color: #333;
   background-color: #f5f5f5;
   border-radius: 4px;
-  overflow-wrap: break-word; /* Add this property to prevent the size change */
+  overflow-wrap: break-word; 
 }
 
 .value.Occupied {
@@ -71,8 +68,8 @@
 }
 
 .actions {
-  display: flex; /* Add this property to keep the buttons on the same line */
-  justify-content: flex-end; /* Add this property to align the buttons to the right */
+  display: flex; 
+  justify-content: flex-end;
   margin-top: 10px;
 }
 
