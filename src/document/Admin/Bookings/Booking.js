@@ -12,7 +12,7 @@ export default function Booking() {
 
 
   useEffect(() => {
-    fetch('/user/bookings')
+    fetch('https://sahyadri-backend.onrender.com/user/bookings')
       .then(response => response.json())
       .then(data => {
         setUsers(data);

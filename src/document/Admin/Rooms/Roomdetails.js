@@ -34,7 +34,7 @@ function RoomDetails() {
 
   const fetchRoomData = async () => {
     try {
-      const response = await axios.get(`/admin/rooms/${roomNumber}`);
+      const response = await axios.get(`https://sahyadri-backend.onrender.com/admin/rooms/${roomNumber}`);
       setRoomData(response.data);
     } catch (error) {
       console.error('Error fetching room data:', error);
@@ -50,7 +50,7 @@ function RoomDetails() {
 
   const handleSaveClick = () => {
     axios
-      .put(`/admin/rooms/${roomNumber}`, editableData)
+      .put(`https://sahyadri-backend.onrender.com/admin/rooms/${roomNumber}`, editableData)
       .then((response) => {
         setRoomData(response.data);
         setIsEditing(false);

@@ -30,7 +30,7 @@ export default function TableRequest() {
       checkAuthentication();
   }, [navigate]);
   const handleDelete = (userId) => {
-    fetch(`/user/tableRequest/${userId}`, {  // Update the endpoint URL
+    fetch(`https://sahyadri-backend.onrender.com/user/tableRequest/${userId}`, {  // Update the endpoint URL
       method: 'DELETE'
     })
       .then(response => response.json())

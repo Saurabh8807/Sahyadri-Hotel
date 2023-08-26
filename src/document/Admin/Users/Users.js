@@ -11,7 +11,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch('/admin/users')
+    fetch('https://sahyadri-backend.onrender.com/admin/users')
       .then(response => response.json())
       .then(data => {
         setUsers(data);
@@ -32,7 +32,7 @@ function App() {
   }, [navigate]);
 
   const handleDelete = (userId) => {
-    fetch(`/admin/users/${userId}`, {
+    fetch(`https://sahyadri-backend.onrender.com/admin/users/${userId}`, {
       method: 'DELETE'
     })
       .then(response => response.json())

@@ -23,7 +23,7 @@ function Booking() {
 
   const fetchRooms = async () => {
     try {
-      const response = await axios.get('/admin/rooms');
+      const response = await axios.get('https://sahyadri-backend.onrender.com/admin/rooms');
       const roomData = response.data;
 
       // Assign rooms from roomData
