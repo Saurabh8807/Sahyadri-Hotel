@@ -5,18 +5,18 @@
  
     width: 70rem;
     margin-top: 1rem;
-    margin-left: 18rem;
+    margin-left: 12rem;
 
   }
   .h2contact{
-    margin-left: 5rem;
+    margin-left: -7rem;
   }
   #h2Transport{
     margin-top:5rem;
-    margin-left:4rem;
+    margin-left:-7rem;
   }
   .divider7{
-    margin-left: 40rem;
+    margin-left: 35rem;
   }
   .contact-column {
     flex: 1;
@@ -46,7 +46,7 @@ font-size: larger;
   justify-content: space-between;
   padding: 20px;
   width: 70rem;
-  margin-left: 15rem;
+  margin-left: 12rem;
 }
 
 .transportation-column {

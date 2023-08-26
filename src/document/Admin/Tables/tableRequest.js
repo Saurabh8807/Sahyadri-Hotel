@@ -10,7 +10,7 @@ export default function TableRequest() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/user/tableRequest')
+    fetch('https://sahyadri-backend.onrender.com/user/tableRequest')
       .then(response => response.json())
       .then(data => {
         setUsers(data);

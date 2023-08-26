@@ -32,7 +32,7 @@ export default function Booking() {
           checkAuthentication();
   }, [navigate]);
   const handleDelete = (userId) => {
-    fetch(`/user/bookings/${userId}`, {  // Update the endpoint URL
+    fetch(`https://sahyadri-backend.onrender.com/user/bookings/${userId}`, {  // Update the endpoint URL
       method: 'DELETE'
     })
       .then(response => response.json())
