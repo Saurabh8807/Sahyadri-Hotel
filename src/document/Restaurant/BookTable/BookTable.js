@@ -29,7 +29,7 @@ export default function BookTable() {
 
     try {
       // Make a POST request to your backend API endpoint to save the form data
-      const response = await axios.post('/user/tableRequest', formData);
+      const response = await axios.post('https://sahyadri-backend.onrender.com/user/tableRequest', formData);
       console.log('Form data saved successfully:', response.data);
       // Handle the success message or any additional logic here
 

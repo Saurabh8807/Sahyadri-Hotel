@@ -150,5 +150,7 @@
 @media screen and (max-width: 1000px) {
   .card-container2{
     margin-top: 5.5rem;
+    height:100%;
+
   }
 }
