@@ -5,7 +5,6 @@ import RestoInfo from './RestoInfo/RestoInfo'
 import RestoInfo2 from './RestoInfo2/RestoInfo2'
 import BookTable from './BookTable/BookTable'
 import Footer from '../Foot/Foot'
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 import './Restaurant.css'
 
@@ -55,7 +54,7 @@ export default function Restaurant() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   )

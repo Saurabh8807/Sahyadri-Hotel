@@ -4,7 +4,6 @@ import ImageSliderRserve from '../Reservation/ImageSliderRserve/ImageSliderRserv
 import Roomsize from './Roomsize/Roomsize'
 import Booking from './Booking/Booking'
 import Footer from '../Foot/Foot'
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 import './Reservation.css'
@@ -56,7 +55,7 @@ export default function reservation() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   )

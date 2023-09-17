@@ -4,7 +4,6 @@ import InfoAbout from './InfoAbout/InfoAbout';
 import { useNavigate } from 'react-router-dom';
 import './About.css'
 import Footer from '../Foot/Foot'
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 
@@ -52,7 +51,7 @@ const About = () => {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
 
     </div>

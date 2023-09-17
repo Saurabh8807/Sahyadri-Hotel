@@ -2,7 +2,6 @@ import React, { useEffect, useState }  from 'react'
 import AdminNavbar from '../Navbar/Navbar';
 import './Booking.css'
 import { useNavigate } from 'react-router-dom';
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 
@@ -131,7 +130,7 @@ export default function Booking() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   );

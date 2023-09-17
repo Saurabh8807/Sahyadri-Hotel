@@ -3,7 +3,6 @@ import MapComponent from './Map/Map';
 import Info from './Info/Info';
 import Foot from '../Foot/Foot';
 import './Contact.css';
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 
@@ -39,7 +38,7 @@ export default function Contact() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   );

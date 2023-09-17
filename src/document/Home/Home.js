@@ -3,7 +3,6 @@ import ImageSlider from '../Home/ImageSlider/ImageSlider'
 import Info from '../Home/Info/Info'
 import OurRooms from '../Home/OurRooms/OurRooms'
 import Footer from '../Foot/Foot'
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 import './Home.css'
@@ -39,7 +38,7 @@ export default function Home() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   )

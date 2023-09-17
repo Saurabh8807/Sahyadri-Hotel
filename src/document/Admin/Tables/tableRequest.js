@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AdminNavbar from '../Navbar/Navbar';
 import { useNavigate } from 'react-router-dom';
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 import './tableRequest.css';
 
@@ -125,7 +124,7 @@ export default function TableRequest() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   );

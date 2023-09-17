@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import AdminNavbar from '../Navbar/Navbar';
 import axios from 'axios';
 import './Rooms.css';
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 function Booking() {
@@ -100,7 +99,7 @@ function Booking() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
     </div>
   );

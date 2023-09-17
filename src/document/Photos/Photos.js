@@ -6,7 +6,6 @@ import SuperRoomPhoto from './Super_deluxe/SuperDeluxe'
 import DeluxeRoomPhoto from './Deluxe/Deluxe'
 import Hotel_img from './Hotel_img/Hotel_img'
 import Footer from '../Foot/Foot'
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 import './Photos.css'
@@ -58,7 +57,7 @@ export default function Photos() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
 
     </div>

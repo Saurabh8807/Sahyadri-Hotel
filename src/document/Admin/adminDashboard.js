@@ -4,7 +4,6 @@ import Papa from "papaparse";
 import Plotly from "plotly.js-dist";
 import ReactApexChart from "react-apexcharts";
 import Navbar from "./Navbar/Navbar";
-import Arrow from '@material-ui/icons/ArrowUpward';
 
 
 function PieChart() {
@@ -480,7 +479,7 @@ export default function AdminDashboard() {
                         width: "50px",
                         height: "50px",
                     }}>
-                    <Arrow fontSize='medium' />
+                    <h1 style={{color:"white"}}>↑</h1>
                 </button>
 
       </div>
