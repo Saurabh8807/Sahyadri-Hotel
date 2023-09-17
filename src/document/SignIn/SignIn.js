@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect  } from "react";
 import "./SignIn.css";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import axios from "axios";
@@ -12,7 +12,21 @@ const SignIn = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
+  const [showPassword, setShowPassword] = useState(false);
+  const [showKey, setShowKey] = useState(false);
 
+  useEffect(() => {
+    setEmail(userType === "Admin" ? "admin@gmail.com" : "user@gmail.com");
+    setPassword(userType === "Admin" ? "admin" : "user");
+    setKey(userType === "Admin" ? "asdfghjkl" : "");
+  }, [userType]);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+  const toggleKeyVisibility = () => {
+    setShowKey(!showKey);
+  };
   const handleSignIn = async (e) => {
 
     if(userType==="Admin" && key!=="asdfghjkl"){
@@ -41,6 +55,7 @@ const SignIn = () => {
       console.log(error.response);
       if (error.response.status === 400) {
         window.alert("Invalid Credentials");
+
       } else {
         window.alert("Failed to sign in");
       }
@@ -68,8 +83,11 @@ const SignIn = () => {
     } catch (error) {
       // Handle the sign-in error
       console.log(error.response);
+      
       if (error.response.status === 400) {
         window.alert("Invalid Credentials");
+        console.log(key);
+      console.log(password)
       } else {
         window.alert("Failed to sign in");
       }
@@ -102,11 +120,20 @@ const SignIn = () => {
     <label>Secret Key</label>
     <input
       className="form-control"
-      type="password"
+      type={showKey ? 'text' : 'password'}
       name="key"
-      value={key}
+      value={key || 'asdfghjkl'||''} // Set the default value here
       onChange={(e) => setKey(e.target.value)} // Add this line
     />
+    <div className="input-group-append">
+          <span
+            className="input-group-text"
+            onClick={toggleKeyVisibility}
+            style={{ cursor: 'pointer',marginLeft:'12.3rem',marginTop:'-2.6rem',zIndex:5 ,position:'absolute'}}
+          >
+            {showKey ? '🚫' : '👁️'}
+          </span>
+        </div>
   </div>
 ) : null}
         <div className="form-group">
@@ -114,19 +141,30 @@ const SignIn = () => {
           <input
             className="form-control"
             type="email"
-            value={email}
+            value={userType === "Admin" ? email||'admin@gmail.com':email||'user@gmail.com'}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="form-group">
-          <label>Password:</label>
-          <input
-            className="form-control"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+      <label>Password:</label>
+      <div className="input-group">
+        <input
+          className="form-control"
+          type={showPassword ? 'text' : 'password'}
+          value={userType === "Admin" ? password||'admin'||'':password||'user'||''}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <div className="input-group-append">
+          <span
+            className="input-group-text"
+            onClick={togglePasswordVisibility}
+            style={{ cursor: 'pointer',marginLeft:'-3.3rem',marginTop:'0.2rem',zIndex:5 ,position:'absolute'}}
+          >
+            {showPassword ? '🚫' : '👁️'}
+          </span>
         </div>
+      </div>
+    </div>
         <button type="submit" className="btn btn-primary">
           SignIn
         </button>

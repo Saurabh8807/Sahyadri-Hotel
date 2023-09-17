@@ -6,17 +6,17 @@ import { useNavigate } from 'react-router-dom';
 
 
 const ContactUs = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    const checkAuthentication = async () => {
-      const token = localStorage.getItem('token');
-      if (!token) {
-        navigate('/SignIn');
-      }
-    };
-    checkAuthentication();
-  }, [navigate]);
+  // useEffect(() => {
+  //   const checkAuthentication = async () => {
+  //     const token = localStorage.getItem('token');
+  //     if (!token) {
+  //       navigate('/SignIn');
+  //     }
+  //   };
+  //   checkAuthentication();
+  // }, [navigate]);
   return (
     <>
         <h2 className='h2contact'>Contact Information</h2>
